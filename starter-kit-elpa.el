@@ -7,6 +7,7 @@
                                    'inf-ruby
                                    'css-mode
                                    'gist)
+
   "Libraries that should be installed by default.")
 
 (defun starter-kit-elpa-install ()
@@ -39,6 +40,6 @@ just have to assume it's online."
 
 ;; Workaround for an ELPA bug that people are reporting but I've been
 ;; unable to reproduce:
-(autoload 'paredit-mode "paredit")
+;;(autoload 'paredit-mode "paredit")
 
 (provide 'starter-kit-elpa)
