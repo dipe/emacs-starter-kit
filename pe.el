@@ -43,7 +43,7 @@
 (require 'textile-mode)
 
 ;; start ECB
-(ecb-activate)
+;;(ecb-activate)
 
 ;; JS2 doesn't compile
 ;(add-to-list 'auto-mode-alist '("\\.js$" . javascript-mode))
