@@ -8,10 +8,6 @@
       ido-use-filename-at-point nil)
 (menu-bar-mode t)
 
-;; rinari
-;(add-to-list 'load-path (concat dotfiles-dir "/vendor/rinari"))
-;(require 'rinari)
-
 ; rails-reloaded
 (add-to-list 'load-path (concat dotfiles-dir "/vendor/emacs-rails-reloaded"))
 (require 'rails-autoload)
@@ -20,8 +16,7 @@
 (add-to-list 'load-path (concat dotfiles-dir "/vendor/rhtml"))
 (require 'rhtml-mode)
 
-;; Misc
-             
+;; Misc             
 (server-start)
 
 ;; Flyspell
@@ -41,12 +36,6 @@
 
 ;; Textile
 (require 'textile-mode)
-
-;; start ECB
-;;(ecb-activate)
-
-;; JS2 doesn't compile
-;(add-to-list 'auto-mode-alist '("\\.js$" . javascript-mode))
 
 ;; indent-rigidly
 (global-set-key (kbd "C-x C-i") 'indent-rigidly)
