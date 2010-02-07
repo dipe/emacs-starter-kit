@@ -1,0 +1,9 @@
+[submodule "vendor/rhtml"]
+	path = vendor/rhtml
+	url = git://github.com/eschulte/rhtml.git
+[submodule "vendor/emacs-rails-reloaded"]
+	path = vendor/emacs-rails-reloaded
+	url = git://github.com/dima-exe/emacs-rails-reloaded.git
+[submodule "vendor/yaml-mode"]
+	path = vendor/yaml-mode
+	url = git://github.com/yoshiki/yaml-mode.git
