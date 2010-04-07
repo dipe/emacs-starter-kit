@@ -48,3 +48,9 @@
 >>>>>>> update
 ;; indent-rigidly
 (global-set-key (kbd "C-x C-i") 'indent-rigidly)
+
+;; No text- nor flyspell-mode in html-mode
+(add-hook 'html-mode-hook 'turn-off-auto-fill)
+(add-hook 'html-mode-hook 'turn-off-flyspell)
+
+(add-to-list 'auto-mode-alist '("\\.ds$" . espresso-mode))
