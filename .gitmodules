@@ -7,3 +7,9 @@
 [submodule "vendor/yaml-mode"]
 	path = vendor/yaml-mode
 	url = git://github.com/yoshiki/yaml-mode.git
+[submodule "vendor/gitsum"]
+	path = vendor/gitsum
+	url = http://github.com/chneukirchen/gitsum.git
+[submodule "mo-git-blame"]
+	path = mo-git-blame
+	url = git://git.bunkus.org/mo-git-blame.git
