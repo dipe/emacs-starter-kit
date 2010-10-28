@@ -56,4 +56,3 @@
 (add-to-list 'auto-mode-alist '("\\.ds$" . espresso-mode))
 
 (setq ffip-patterns '("*.rb" "*.html" "*.el" "*.js" "*.rhtml" "*.ds" "*.isml" "*.properties"))
-
