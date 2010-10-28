@@ -2,6 +2,15 @@
 
 (add-to-list 'load-path (concat dotfiles-dir "/vendor"))
 
+;; mo-git-blame
+(add-to-list 'load-path (concat dotfiles-dir "/vendor/mo-git-blame"))
+(autoload 'mo-git-blame-file "mo-git-blame" nil t)
+(autoload 'mo-git-blame-current "mo-git-blame" nil t)
+
+;; gitsum
+(add-to-list 'load-path (concat dotfiles-dir "/vendor/gitsum"))
+(require 'gitsum)
+
 ;; Reset some starter-kit settings
 (setq inhibit-startup-message nil
       shift-select-mode t
@@ -54,3 +63,6 @@
 (add-hook 'html-mode-hook 'turn-off-flyspell)
 
 (add-to-list 'auto-mode-alist '("\\.ds$" . espresso-mode))
+
+(setq ffip-patterns '("*.rb" "*.html" "*.el" "*.js" "*.rhtml" "*.ds" "*.isml" "*.properties"))
+
