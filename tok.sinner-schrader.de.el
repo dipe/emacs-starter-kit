@@ -2,9 +2,9 @@
 (setq ecb-source-path (quote (("~/Project" "Project"))))
 
 ;; Font-Size
-(custom-set-faces
- '(default ((t (:height 110))))
- '(highlight ((t (:height 110)))))
+;(custom-set-faces
+; '(default ((t (:height 110))))
+; '(highlight ((t (:height 110)))))
 
 ;; ECB-Sources
 (setq ecb-source-path (quote (("~/Project" "Project"))))
