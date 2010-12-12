@@ -52,9 +52,6 @@
 ;; JS2 doesn't compile
 ;(add-to-list 'auto-mode-alist '("\\.js$" . javascript-mode))
 
->>>>>>> Adapted old dot emacs.d to new starter kit
-=======
->>>>>>> update
 ;; indent-rigidly
 (global-set-key (kbd "C-x C-i") 'indent-rigidly)
 
