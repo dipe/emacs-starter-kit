@@ -62,3 +62,5 @@
 (add-to-list 'auto-mode-alist '("\\.ds$" . espresso-mode))
 
 (setq ffip-patterns '("*"))
+
+(setq js-indent-level 2)
