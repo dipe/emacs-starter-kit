@@ -13,3 +13,6 @@
 [submodule "mo-git-blame"]
 	path = mo-git-blame
 	url = git://git.bunkus.org/mo-git-blame.git
+[submodule "vendor/haml-mode"]
+	path = vendor/haml-mode
+	url = https://github.com/nex3/haml-mode.git

@@ -2,6 +2,10 @@
 
 (add-to-list 'load-path (concat dotfiles-dir "/vendor"))
 
+;; HAML
+(add-to-list 'load-path (concat dotfiles-dir "/vendor/haml-mode"))
+(require 'haml-mode)
+
 ;; mo-git-blame
 (add-to-list 'load-path (concat dotfiles-dir "/vendor/mo-git-blame"))
 (autoload 'mo-git-blame-file "mo-git-blame" nil t)
@@ -39,7 +43,7 @@
 (prefer-coding-system 'utf-8)
 
 ;;YAML
-(add-to-list 'load-path (concat dotfiles-dir "/vendor/yaml-mode-0.0.3"))
+(add-to-list 'load-path (concat dotfiles-dir "/vendor/yaml-mode"))
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
