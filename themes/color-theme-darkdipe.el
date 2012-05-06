@@ -66,5 +66,5 @@
      (toolbar ((t (nil))))
      (underline ((nil (:underline nil))))
      (zmacs-region ((t (:background "snow" :foreground "ble"))))
-     (mode-line ((t (:background "DarkRed" :foreground "white"))))
+     (mode-line ((t (:background "#ED6500" :foreground "white"))))
      )))
